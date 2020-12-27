@@ -2,13 +2,13 @@
 
 PTS automation scripts using selenium.
 
-# Install dependencies:
+## Setup
 ```
 pip install -r requierments.txt
 ```
 edit the conf.txt so that the first line is your username and the second line is your password
 
-# Usage
+## Usage
 run submit.py to submit a time
 
 run check.py to analyze a "work period" (15nth of the month till the 15nth of the next month) based on you entries in PTS website and find and submit missing entries.
